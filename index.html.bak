@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo_Web</title>
+  <link rel="stylesheet" href="./main_styles.css">
+  <link rel="icon" href="camera-icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="./photo.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Montserrat&family=Montserrat+Alternates&display=swap');
+  </style>
+</head>
+
+<body>
+  <div id="photo_man">
+    <img src="./picture/back.jpeg" alt="Man taking a picture">
+  </div>
+  <header>
+    <h1 id="logo">Photostudio</h1>
+    <nav>
+      <ul>
+        <li><a href="./about_page.html">про нас</a></li>
+        <li><a href="./faq_page.html">faqs</a></li>
+        <li><a href="./contacts_page.html">контакти</a></li>
+        <li><a href="./prog_page.html">програма курсу</a></li>
+        <li><a href="./blog_page.html">блог</a></li>
+        <li><a id="heart" href="#">&#x2661;</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="social-icons">
+    <a href="#"><i class="fa fa-instagram"></i></a>
+    <a href="#"><i class="fa fa-telegram"></i></a>
+  </div>
+  <div class="text">Фотографуй як профі!</div>
+  <button id="tariff_button">Обрати тариф</button>
+</body>
+
+</html>
